@@ -12,9 +12,9 @@ import (
 	"github.com/pkg/errors"
 	"golang.org/x/tools/go/packages"
 
-	"github.com/golangci/golangci-lint/internal/cache"
-	"github.com/golangci/golangci-lint/pkg/logutils"
-	"github.com/golangci/golangci-lint/pkg/timeutils"
+	"github.com/lgvital/golangci-lint/internal/cache"
+	"github.com/lgvital/golangci-lint/pkg/logutils"
+	"github.com/lgvital/golangci-lint/pkg/timeutils"
 )
 
 type HashMode int

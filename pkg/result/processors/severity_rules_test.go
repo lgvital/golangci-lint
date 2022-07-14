@@ -6,10 +6,10 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/golangci/golangci-lint/pkg/fsutils"
-	"github.com/golangci/golangci-lint/pkg/logutils"
-	"github.com/golangci/golangci-lint/pkg/report"
-	"github.com/golangci/golangci-lint/pkg/result"
+	"github.com/lgvital/golangci-lint/pkg/fsutils"
+	"github.com/lgvital/golangci-lint/pkg/logutils"
+	"github.com/lgvital/golangci-lint/pkg/report"
+	"github.com/lgvital/golangci-lint/pkg/result"
 )
 
 func TestSeverityRulesMultiple(t *testing.T) {

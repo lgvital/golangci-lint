@@ -5,7 +5,7 @@ import (
 
 	"golang.org/x/tools/go/analysis"
 
-	"github.com/golangci/golangci-lint/pkg/result"
+	"github.com/lgvital/golangci-lint/pkg/result"
 )
 
 type Linter interface {
@@ -22,7 +22,7 @@ type Noop struct {
 
 func (n Noop) Run(_ context.Context, lintCtx *Context) ([]result.Issue, error) {
 	lintCtx.Log.Warnf("%s is disabled because of go1.18."+
-		" You can track the evolution of the go1.18 support by following the https://github.com/golangci/golangci-lint/issues/2649.", n.name)
+		" You can track the evolution of the go1.18 support by following the https://github.com/lgvital/golangci-lint/issues/2649.", n.name)
 	return nil, nil
 }
 

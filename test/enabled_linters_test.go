@@ -6,8 +6,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/golangci/golangci-lint/pkg/lint/lintersdb"
-	"github.com/golangci/golangci-lint/test/testshared"
+	"github.com/lgvital/golangci-lint/pkg/lint/lintersdb"
+	"github.com/lgvital/golangci-lint/test/testshared"
 )
 
 func inSlice(s []string, v string) bool {

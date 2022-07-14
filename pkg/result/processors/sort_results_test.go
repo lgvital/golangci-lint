@@ -7,8 +7,8 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/golangci/golangci-lint/pkg/config"
-	"github.com/golangci/golangci-lint/pkg/result"
+	"github.com/lgvital/golangci-lint/pkg/config"
+	"github.com/lgvital/golangci-lint/pkg/result"
 )
 
 var issues = []result.Issue{

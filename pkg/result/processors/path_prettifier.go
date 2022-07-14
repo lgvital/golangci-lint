@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"path/filepath"
 
-	"github.com/golangci/golangci-lint/pkg/fsutils"
-	"github.com/golangci/golangci-lint/pkg/result"
+	"github.com/lgvital/golangci-lint/pkg/fsutils"
+	"github.com/lgvital/golangci-lint/pkg/result"
 )
 
 type PathPrettifier struct {

@@ -7,7 +7,7 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/golangci/golangci-lint/pkg/config"
+	"github.com/lgvital/golangci-lint/pkg/config"
 )
 
 func GoimportsLocalTest() {

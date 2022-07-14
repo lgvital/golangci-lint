@@ -9,9 +9,9 @@ import (
 	"github.com/fatih/color"
 	"github.com/spf13/cobra"
 
-	"github.com/golangci/golangci-lint/pkg/exitcodes"
-	"github.com/golangci/golangci-lint/pkg/lint/linter"
-	"github.com/golangci/golangci-lint/pkg/logutils"
+	"github.com/lgvital/golangci-lint/pkg/exitcodes"
+	"github.com/lgvital/golangci-lint/pkg/lint/linter"
+	"github.com/lgvital/golangci-lint/pkg/logutils"
 )
 
 func (e *Executor) initHelp() {

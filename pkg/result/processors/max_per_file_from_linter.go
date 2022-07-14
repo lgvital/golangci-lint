@@ -1,8 +1,8 @@
 package processors
 
 import (
-	"github.com/golangci/golangci-lint/pkg/config"
-	"github.com/golangci/golangci-lint/pkg/result"
+	"github.com/lgvital/golangci-lint/pkg/config"
+	"github.com/lgvital/golangci-lint/pkg/result"
 )
 
 type linterToCountMap map[string]int

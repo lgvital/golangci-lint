@@ -17,17 +17,17 @@ import (
 	"github.com/spf13/pflag"
 	"gopkg.in/yaml.v3"
 
-	"github.com/golangci/golangci-lint/internal/cache"
-	"github.com/golangci/golangci-lint/internal/pkgcache"
-	"github.com/golangci/golangci-lint/pkg/config"
-	"github.com/golangci/golangci-lint/pkg/fsutils"
-	"github.com/golangci/golangci-lint/pkg/golinters/goanalysis/load"
-	"github.com/golangci/golangci-lint/pkg/goutil"
-	"github.com/golangci/golangci-lint/pkg/lint"
-	"github.com/golangci/golangci-lint/pkg/lint/lintersdb"
-	"github.com/golangci/golangci-lint/pkg/logutils"
-	"github.com/golangci/golangci-lint/pkg/report"
-	"github.com/golangci/golangci-lint/pkg/timeutils"
+	"github.com/lgvital/golangci-lint/internal/cache"
+	"github.com/lgvital/golangci-lint/internal/pkgcache"
+	"github.com/lgvital/golangci-lint/pkg/config"
+	"github.com/lgvital/golangci-lint/pkg/fsutils"
+	"github.com/lgvital/golangci-lint/pkg/golinters/goanalysis/load"
+	"github.com/lgvital/golangci-lint/pkg/goutil"
+	"github.com/lgvital/golangci-lint/pkg/lint"
+	"github.com/lgvital/golangci-lint/pkg/lint/lintersdb"
+	"github.com/lgvital/golangci-lint/pkg/logutils"
+	"github.com/lgvital/golangci-lint/pkg/report"
+	"github.com/lgvital/golangci-lint/pkg/timeutils"
 )
 
 type Executor struct {

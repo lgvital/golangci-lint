@@ -9,8 +9,8 @@ import (
 	"github.com/stretchr/testify/require"
 	"gopkg.in/yaml.v3"
 
-	"github.com/golangci/golangci-lint/pkg/exitcodes"
-	"github.com/golangci/golangci-lint/test/testshared"
+	"github.com/lgvital/golangci-lint/pkg/exitcodes"
+	"github.com/lgvital/golangci-lint/test/testshared"
 )
 
 func TestFix(t *testing.T) {

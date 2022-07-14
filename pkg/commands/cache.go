@@ -7,10 +7,10 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"github.com/golangci/golangci-lint/internal/cache"
-	"github.com/golangci/golangci-lint/pkg/exitcodes"
-	"github.com/golangci/golangci-lint/pkg/fsutils"
-	"github.com/golangci/golangci-lint/pkg/logutils"
+	"github.com/lgvital/golangci-lint/internal/cache"
+	"github.com/lgvital/golangci-lint/pkg/exitcodes"
+	"github.com/lgvital/golangci-lint/pkg/fsutils"
+	"github.com/lgvital/golangci-lint/pkg/logutils"
 )
 
 func (e *Executor) initCache() {

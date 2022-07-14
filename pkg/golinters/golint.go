@@ -7,10 +7,10 @@ import (
 	lintAPI "github.com/golangci/lint-1"
 	"golang.org/x/tools/go/analysis"
 
-	"github.com/golangci/golangci-lint/pkg/config"
-	"github.com/golangci/golangci-lint/pkg/golinters/goanalysis"
-	"github.com/golangci/golangci-lint/pkg/lint/linter"
-	"github.com/golangci/golangci-lint/pkg/result"
+	"github.com/lgvital/golangci-lint/pkg/config"
+	"github.com/lgvital/golangci-lint/pkg/golinters/goanalysis"
+	"github.com/lgvital/golangci-lint/pkg/lint/linter"
+	"github.com/lgvital/golangci-lint/pkg/result"
 )
 
 const golintName = "golint"

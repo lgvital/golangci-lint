@@ -5,5 +5,5 @@ import (
 	colorable "github.com/mattn/go-colorable"
 )
 
-var StdOut = color.Output // https://github.com/golangci/golangci-lint/issues/14
+var StdOut = color.Output // https://github.com/lgvital/golangci-lint/issues/14
 var StdErr = colorable.NewColorableStderr()

@@ -6,9 +6,9 @@ import (
 	"github.com/pkg/errors"
 	"golang.org/x/tools/go/packages"
 
-	"github.com/golangci/golangci-lint/pkg/lint/linter"
-	libpackages "github.com/golangci/golangci-lint/pkg/packages"
-	"github.com/golangci/golangci-lint/pkg/result"
+	"github.com/lgvital/golangci-lint/pkg/lint/linter"
+	libpackages "github.com/lgvital/golangci-lint/pkg/packages"
+	"github.com/lgvital/golangci-lint/pkg/result"
 )
 
 type IllTypedError struct {

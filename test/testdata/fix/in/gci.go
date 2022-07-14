@@ -3,9 +3,9 @@
 package gci
 
 import (
-	"github.com/golangci/golangci-lint/pkg/config"
-	"github.com/pkg/errors"
 	"fmt"
+	"github.com/lgvital/golangci-lint/pkg/config"
+	"github.com/pkg/errors"
 )
 
 func GoimportsLocalTest() {

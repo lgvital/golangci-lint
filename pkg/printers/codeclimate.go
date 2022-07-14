@@ -6,7 +6,7 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/golangci/golangci-lint/pkg/result"
+	"github.com/lgvital/golangci-lint/pkg/result"
 )
 
 // CodeClimateIssue is a subset of the Code Climate spec - https://github.com/codeclimate/spec/blob/master/SPEC.md#data-types
